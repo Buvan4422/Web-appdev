@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    font-size: 120%;
+}
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+.wtype {
+    text-transform: capitalize;
+    margin-left: 0.8em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container {
+    background-color: #000000d0;
+    color: white;
+    padding: 1eam;
+    padding: 1.5em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 450px;
+    margin: 1em;
+}
+button:hover {
+    background: #7c7c7c8b;
+}
+button {
+    margin: 0.5em;
+    border: none;
+    border-radius: 40px;
+    height: 3.5em;
+    width: 3.5em;
+    background: #7c7c7c5b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input.find-bar {
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    padding: 0.5em 1em;
+    background-color: #7c7c7c4b;
+    color: white;
+    font-family: inherit;
+    font-size: 130%;
+    width: calc(100% - 100px);
+}
+
+svg {
+    font-size: x-large;
+}
